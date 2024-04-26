@@ -86,24 +86,17 @@ margin-right: 670px;
 .list:hover::before{
   transform: scaleX(1);
 }
-@media (min-width: 768px){
 
-.textbox{
-width: 527px;
-height: 510px;
-margin-top: 203px;
-margin-left: 147px;
-}}
-@media (max-width: 480px){
+@media(max-width: 480px){
 
 .textbox{
 width: 392px;
 height: 351px;
-margin-top: 50px;
 margin-left: 44px;
+  margin-top: 50px;
 
 }}
-@media (max-width: 768px){
+@media (max-width: 992px){
 
 .textbox{
 width: 527px;
@@ -112,6 +105,13 @@ margin-top: 903px;
 margin-left: 147px;
 
 }}
+@media (min-width: 992px) {
+  .textbox{
+    margin-top: 203px;
+    margin-left: 147px;
+    margin-bottom: 200px;
+  }
+}
 .unity{
   width: 96px;
   height: 30px;
@@ -133,8 +133,8 @@ margin-left: 147px;
 .game{
    width: 806px;
   height: 761px;
-  margin-left:50px ;
-  margin-top: 50px;
+  margin-left:1050px ;
+  margin-top: 30px;
 }
 @media (max-width: 992px) {
   .game{
@@ -143,4 +143,94 @@ margin-left: 147px;
 }
 .prove{
   color: var(--narenji);
+}
+.dummy{
+  font-family: myFontlight;
+}
+.detail{
+  background-color: var(--narenji);
+}
+@font-face {
+  font-family: rubik;
+  src: url("/assets/fonts/Rubik-Medium.ttf")format("truetype");
+}
+.all{
+  background-color: var(--banafshkam);
+  font-family: rubik;
+  margin-left: 1000px;
+}
+.trend{
+  font-family: rubik;
+  margin-left: 147px;
+
+}
+@media (max-width: 992px) {
+  .txt{
+    margin-left: 127px;
+  }
+}
+.first{
+  margin-left: 147px;
+  width: 251px;
+  height: 277px;
+}
+.therest{
+  margin-left: 130px;
+  width: 251px;
+  height: 277px;
+}
+.fire1{
+  margin-left: 195px;
+  margin-top: 10px;
+  width: 25px;
+  height: 25px;
+}
+.followers{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: rubik;
+  width: 136px;
+  height: 41px;
+  font-size: 22px;
+
+}
+.fire{
+  margin-left: 190px;
+  margin-top: 10px;
+  width: 25px;
+  height: 25px;
+
+}
+
+@media (max-width: 480px) {
+  .therest{
+    margin-left: 250px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .first{
+    margin-left: 250px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .fire1{
+    margin-left: 280px;
+  }
+  .fire{
+    margin-left: 280px;
+  }
+}
+
+@media (min-width: 481px) {
+  .first{
+    margin-left:130px;
+  }
+  .fire1{
+    margin-left: 150px;
+  }
+  .fire{
+    margin-left: 150px;
+  }
 }
