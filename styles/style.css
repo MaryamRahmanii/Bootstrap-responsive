@@ -234,3 +234,157 @@ margin-left: 147px;
     margin-left: 150px;
   }
 }
+.dummylorem{
+  width: 826px;
+  height: 132px;
+  margin-left: 400px;
+  margin-top: 120px;
+}
+@media (max-width: 992px) {
+  .dummylorem{
+    margin-left: 50px;
+  }
+
+}
+.txtbox{
+  margin-left: 147px;
+}
+.nextlorem{
+  font-family: myFontlight;
+}
+@media (max-width: 992px) {
+  .txtbox{
+    margin-left: 200px;
+  }
+}
+.spiderman{
+  width: 1350px;
+  height: 550px;
+  margin-left: 147px;
+  background-image: url("/assets/images/bda8f371503fa58f7e526fe7b0cd55c9.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position:0 40%;
+}
+@media (max-width: 992px) {
+  .spiderman{
+    width: 573px;
+    height: 462px;
+    background-position:unset;
+    background-size: 573px;
+    margin-left:200px ;
+  }
+}
+
+@media (max-width: 480px) {
+  .spiderman{
+    width: 452px;
+    height: 388px;
+    background-position:unset;
+    background-size: 452px;
+    margin-left:200px ;
+  }
+}
+.dot{
+  color:var(--ghahveii);
+  width: 300px;
+  height: 7px;
+}
+.dots{
+  position: -ms-device-fixed;
+  margin-left: 1200px;
+}
+.txtbox2{
+  margin-top: 700px;
+  width: 497px;
+  height: 128px;
+  margin-left: 570px;
+  margin-bottom: 50px;
+}
+@media (max-width: 992px) {
+  .txtbox2{
+    margin-left: 160px;
+    margin-top: 400px;
+  }
+
+}
+
+@media (min-width: 481px) {
+  .txtbox2{
+    margin-left: 230px;
+  }
+}
+.lorem3{
+  font-family: myFontlight;
+}
+.imgs{
+  margin-left: 0;
+  margin-top: 30px;
+}
+.ph1{
+  width: 422px;
+  height: 223px;
+  margin-right: 40px;
+}
+.ph2{
+  width: 422px;
+  height: 223px;
+  margin-right: 40px;
+}
+.ph3{
+  width: 402px;
+  height: 223px;
+}
+.ph4{
+  width: 296px;
+  height: 223px;
+  margin-right: 10px;
+}
+.ph5{
+  width: 451px;
+  height: 223px;
+  margin-right: 40px;
+
+}
+.ph6{
+  width: 509px;
+  height: 223px;
+}
+@media (max-width: 992px) {
+  .ph1{
+    width: 352px;
+    height: 223px;
+    margin-left: 120px;
+  }
+  .ph2{
+    width: 280px;
+    height: 223px;
+    margin-left: 140px;
+  }
+  .ph3{
+    width: 305px;
+    height: 223px;
+    margin-left: 120px;
+  }
+  .ph4{
+     width: 335px;
+    height: 223px;
+    margin-left: 90px;
+  }
+  .ph5{
+     width: 246px;
+    height: 223px;
+    margin-left: 120px;
+    margin-right:0 ;
+  }
+  .ph6{
+     width: 401px;
+    height: 223px;
+    margin-left: 80px;
+
+  }
+  .div5{
+    padding: 0;
+    width: 300px;
+  }
+}
