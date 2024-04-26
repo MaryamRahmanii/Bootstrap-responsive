@@ -294,26 +294,36 @@ margin-left: 147px;
   position: -ms-device-fixed;
   margin-left: 1200px;
 }
+@media(min-width: 993px){
 .txtbox2{
   margin-top: 700px;
   width: 497px;
   height: 128px;
   margin-left: 570px;
   margin-bottom: 50px;
+}}
+@media (max-width: 480px) {
+  .txtbox2{
+    margin-left: 190px;
+    margin-top: 400px;
+    height: 128px;
+    width: 449px;
+  }
+
 }
+
 @media (max-width: 992px) {
   .txtbox2{
-    margin-left: 160px;
+    width: 497px;
+    height: 128px;
+    margin-left: 203px;
     margin-top: 400px;
+
+
   }
 
 }
 
-@media (min-width: 481px) {
-  .txtbox2{
-    margin-left: 230px;
-  }
-}
 .lorem3{
   font-family: myFontlight;
 }
@@ -324,31 +334,47 @@ margin-left: 147px;
 .ph1{
   width: 422px;
   height: 223px;
-  margin-right: 40px;
+
 }
 .ph2{
   width: 422px;
   height: 223px;
-  margin-right: 40px;
+  margin-left: 50px;
 }
 .ph3{
   width: 402px;
   height: 223px;
+  margin-left: 100px;
 }
 .ph4{
   width: 296px;
   height: 223px;
-  margin-right: 10px;
+}
+@media (min-width: 993px) {
+  .div4{
+    width: 296px;
+    height: 223px;
+  }
+  .div5{
+    width: 451px;
+    height:223px ;
+    margin-left: 50px;
+}
+  .imgs{
+    margin-left: 63px;
+  }
 }
 .ph5{
   width: 451px;
   height: 223px;
-  margin-right: 40px;
+  margin-left: 50px;
+  margin-left: 0;
 
 }
 .ph6{
   width: 509px;
   height: 223px;
+  margin-left: 40px;
 }
 @media (max-width: 992px) {
   .ph1{
@@ -386,5 +412,23 @@ margin-left: 147px;
   .div5{
     padding: 0;
     width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ph1{
+    width: 401px;
+    height: 223px;
+    margin-left: 200px;
+  }
+  .ph2{
+    width: 401px;
+    height: 223px;
+    margin-left: 200px;
+  }
+  .ph3{
+    width: 401px;
+    height: 223px;
+    margin-left: 200px;
   }
 }
