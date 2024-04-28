@@ -76,15 +76,16 @@ margin-right: 670px;
   content: "";
   position: absolute;
   bottom: -2px;
-  left: 0px;
+  left: -100%;
   width: 100%;
   height: 2px;
   background-color: var(--narenji);
   transform: scaleX(0);
-  transition: transform 0.3s;
+  transition: transform 0.3s, left 0.3s;
 }
 .list:hover::before{
   transform: scaleX(1);
+  left: 0;
 }
 
 @media(max-width: 480px){
@@ -430,5 +431,266 @@ margin-left: 147px;
     width: 401px;
     height: 223px;
     margin-left: 200px;
+  }
+}
+.all2{
+  margin-left: 750px;
+  margin-top: 100px;
+  font-family: rubik;
+  width: 139px;
+  height: 57px;
+  background-color: var(--banafshkam);
+}
+.txtbox3{
+  margin-left: 147px;
+}
+@media (max-width: 992px) {
+  .all2{
+    margin-left: 400px;
+  }
+  .txtbox3{
+    margin-left: 130px;
+    width: 672px;
+    height: 129px;
+  }
+}
+@media (max-width: 480px) {
+  .all2{
+    margin-left: 330px;
+  }
+  .txtbox3{
+    margin-left: 175px;
+    width: 443.06px;
+    height: 129px;
+  }
+}
+.blackbox{
+  background-color: var(--siah);
+  width: 1350px;
+  height: 200px;
+  margin-left: 135px;
+  padding-bottom: 50px;
+}
+.email{
+  height: 55px;
+  width: 386px;
+  margin-right: 10px;
+  margin-top: 80px;
+  margin-left: 200px;
+}
+.write{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+::placeholder{
+  color: var(--khakstri);
+}
+.btn{
+  background-color: var(--narenji);
+  width: 105px;
+  height: 37px;
+  border: var(--narenji);
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+.txtbox4{
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+@media (max-width: 992px) {
+  .blackbox{
+    width: 670px;
+    height: 280px;
+  }
+  .txtbox4{
+    margin-left: 25px;
+    padding-top: 30px;
+  }
+  .email{
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 606px;
+    height: 48px;
+  }
+  .btn{
+    width: 164.98px;
+    height: 37px;
+    margin-left: 140px;
+    margin-top: 5px;
+  }
+  .write{
+    margin-left: 90px;
+    margin-top: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .blackbox{
+    width: 434px;
+    height: 297px;
+    margin-left: 180px;
+  }
+  .txtbox4{
+    margin-left: 35px;
+    padding-top: 30px;
+    width: 350px;
+    text-align: center;
+  }
+  .email{
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 378px;
+    height: 48px;
+  }
+  .btn{
+    width: 135px;
+    height: 37px;
+    margin-left: 0px;
+    margin-top: 5px;
+
+  }
+  .write{
+    margin-left: 35px;
+    margin-top: 12px;
+  }
+}
+footer{
+  background-color:#000;
+  margin-top: 200px;
+  height: 430px;
+  width: 1700px;
+}
+.firstlogo{
+  color:white;
+  width: 68px;
+  height: 37px;
+  margin-left: 100px;
+  font-size: 24px;
+  font-family: poppins;
+
+}
+.lorem4{
+  color:white;
+  margin-left: 100px;
+  width: 372px;
+  height: 58px;
+  font-size: 16px;
+  font-family: myFontlight;
+  margin-top: 25px;
+}
+.secondlogo{
+  color:white;
+  margin-left: 100px;
+  font-size: 16px;
+  font-family: myFontlight;
+  width: 196px;
+  height: 23px;
+  margin-top: 40px;
+}
+.us{
+  color: white;
+  width: 100px;
+  height: 26px;
+  font-size: 19px;
+  margin-bottom: 20px;
+
+
+}
+.uslist{
+  color: white;
+  list-style-type: none;
+}
+.item{
+  margin-bottom: 13px;
+  font-size: 17px;
+  font-family: myFontlight;
+}
+.firstcircle{
+ position: absolute;
+ width: 50px;
+ height: 50px;
+ margin-left: 200px;
+ margin-top: 260px;
+}
+.facebook{
+  margin-left: 218px;
+  margin-top: 275px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+.circle2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: 260px;
+  margin-left: 250px;
+}
+.instagram{
+  margin-top: 275px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-left: 268px;
+}
+.circle3{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: 260px;
+  margin-left: 300px;
+}
+.twt{
+  margin-top: 275px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-left: 318px;
+}
+.circle4{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: 260px;
+  margin-left: 350px;
+}
+.in{
+  margin-top: 275px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-left: 368px;
+}
+.copy{
+  width: 350px;
+  height: 25px;
+  margin-top: 30px;
+  font-family: myFontlight;
+  color: white;
+  margin-left: 650px;
+}
+@media (max-width: 992px) {
+  footer{
+    width: 785px;
+    height: 574px;
+  }
+  .d1{
+    padding-top: 50px;
+    padding-left: 0;
+    width: 50px;
+    margin-right: 200px;
+
+  }
+  .secondlogo{
+    margin-top: 50px;
+  }
+  .d2{
+    width: 150px;
+    margin-left: 200px;
+  }
+  .uslist{
+    padding-left: 0;
   }
 }
