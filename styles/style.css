@@ -185,6 +185,7 @@ margin-left: 147px;
   margin-top: 10px;
   width: 25px;
   height: 25px;
+   transition: all 0.3s;
 }
 .followers{
   margin-top: 10px;
@@ -200,7 +201,16 @@ margin-left: 147px;
   margin-top: 10px;
   width: 25px;
   height: 25px;
+   transition: all 0.3s;
 
+}
+.followers:hover + .fire{
+  width: 50px;
+  height: 50px;
+}
+.followers:hover + .fire1{
+  width: 50px;
+  height: 50px;
 }
 
 @media (max-width: 480px) {
@@ -671,26 +681,11 @@ footer{
   color: white;
   margin-left: 650px;
 }
-@media (max-width: 992px) {
-  footer{
-    width: 785px;
-    height: 574px;
-  }
-  .d1{
-    padding-top: 50px;
-    padding-left: 0;
-    width: 50px;
-    margin-right: 200px;
-
-  }
-  .secondlogo{
-    margin-top: 50px;
-  }
-  .d2{
-    width: 150px;
-    margin-left: 200px;
-  }
-  .uslist{
-    padding-left: 0;
-  }
+.first:hover{
+  transition: opacity 0.3;
+  opacity: 0.7;
+}
+.therest:hover{
+  transition: opacity 0.3;
+  opacity: 0.7;
 }
